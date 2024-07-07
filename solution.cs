@@ -1,14 +1,4 @@
-using System;
-using System.Collections.Generic;
-
-public class Elevator
+public void RequestFloor(int floor)
 {
-    private SortedSet<int> requests;
-    private int currentFloor;
-
-    public Elevator()
-    {
-        requests = new SortedSet<int>();
-        currentFloor = 0;
-    }
+    requests.Add(floor);
 }
